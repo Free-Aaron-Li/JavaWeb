@@ -10,7 +10,7 @@ import domain.Person;
  * @description: <p>获取Class对象的方式：</p>
  * <ol type="1" start="1">
  *    <li>Class.forName("全类名")，将字节码文件加载进内存，返回Class对象。</li>
- *    <li>类名.Class，通过类名的属性class获取</li>
+ *    <li>类名.class，通过类名的属性class获取</li>
  *    <li>对象.getClass()，在Object类中定义着。</li>
  *     </ol>
  * @date: 2022/7/7 下午6:44
