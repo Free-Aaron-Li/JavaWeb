@@ -16,6 +16,7 @@ public class Person {
     protected String b;
     String c;
     private String d;
+
     public Person() {
     }
 
@@ -50,5 +51,13 @@ public class Person {
                 ", c='" + c + '\'' +
                 ", d='" + d + '\'' +
                 '}';
+    }
+
+    public void eat() {
+        System.out.println("I'm eating!!");
+    }
+
+    public void run(String name) {
+        System.out.println("I with " + name + " running!!");
     }
 }
