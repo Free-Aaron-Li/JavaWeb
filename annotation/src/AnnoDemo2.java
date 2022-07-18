@@ -1,5 +1,3 @@
-package annotation;
-
 import java.util.Date;
 
 /**
@@ -20,11 +18,13 @@ public class AnnoDemo2 {
     @Deprecated
     public void show1() {
         //有缺陷
+        System.out.println("hahaha");
     }
 
-
+    @MyAnno2(age=12,person = Person.p1,annotation3=@MyAnno3,str = {"abc","bb"})
     public void show2() {
         //替代show1方法
+        System.out.println("hahaha!!");
     }
 
     public void demo() {

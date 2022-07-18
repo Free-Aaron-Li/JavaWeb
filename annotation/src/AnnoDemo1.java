@@ -1,5 +1,3 @@
-package annotation;
-
 /**
  * @projectName: JavaWeb
  * @className: AnnoDemo1
