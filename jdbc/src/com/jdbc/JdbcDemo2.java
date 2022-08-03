@@ -11,10 +11,11 @@ import java.sql.Statement;
  * @link:
  * @author: AaronLi
  * @description: 在account表中添加一条记录
- * @date: 2022/8/3 上午11:00
+ * @date: 2022 /8/3 上午11:00
  * @version: JDK17
  */
 public class JdbcDemo2 {
+
     public static void main(String[] args) {
         Statement statement = null;
         Connection conn = null;

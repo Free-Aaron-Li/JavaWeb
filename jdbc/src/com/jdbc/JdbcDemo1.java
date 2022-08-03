@@ -23,11 +23,11 @@ public class JdbcDemo1 {
         Connection conn = DriverManager.getConnection("jdbc:mysql:///affairs", "root", "123456");
         //4、定义SQL语句
         //String sql="UPDATE account SET balance=2000  WHERE id=2";
-        String sql="update account set balance=2000";
+        String sql = "update account set balance=2000";
         //5、获取执行SQL的对象Statement
         Statement stmt = conn.createStatement();
         //6、执行SQL
-        int count=stmt.executeUpdate(sql);
+        int count = stmt.executeUpdate(sql);
         //7、处理结果
         System.out.println(count);
         //8、释放资源
