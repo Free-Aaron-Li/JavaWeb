@@ -2,30 +2,20 @@ package com.jdbc.demo;
 
 import com.jdbc.utils.JdbcUtils;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.Scanner;
 
 /**
  * @projectName: JavaWeb_Workspace
- * @className: JdbcDemo8
+ * @className: JdbcDemo9
  * @link:
  * @author: AaronLi
- * @description: <br>
- * 练习
- * <br>
- * &emsp;需求：
- * &emsp;<ol  type="1" start="1">
- * <li>通过键盘录入用户名和密码</li>
- * <li>判断用户是否登录成功</li>
- * </ol>
- * @date: 2022/8/5 下午10:32
+ * @description: 采用preparedStatement方法，设计登录方法。防止SQL注入
+ * @date: 2022/8/6 上午10:45
  * @version: JDK17
  */
 
-public class JdbcDemo8 {
+public class JdbcDemo9 {
     public static void main(String[] args) {
         //1、键盘录入，接收用户名和密码
         Scanner scanner = new Scanner(System.in);
@@ -34,7 +24,7 @@ public class JdbcDemo8 {
         System.out.println("请输入密码：");
         String password = scanner.nextLine();
         //2、调用方法
-        boolean flag = new JdbcDemo8().login(username, password);
+        boolean flag = new JdbcDemo9().loginTwo(username, password);
         //3、判断结果，输出不同结果
         if (flag) {
             System.out.println("登录成功");
@@ -45,30 +35,33 @@ public class JdbcDemo8 {
 
     /**
      * @date: 2022/8/5 下午10:45
-     * @description: 登录方法
+     * @description: 登录方法，使用preparedStatement实现
      */
-    public boolean login(String username, String password) {
+    public boolean loginTwo(String username, String password) {
         if (username == null || password == null) {
             return false;
         }
         Connection conn = null;
-        Statement stmt = null;
+        PreparedStatement pstmt = null;
         ResultSet rs = null;
         try {
             //1、获取Connection连接
             conn = JdbcUtils.getConnection();
             //2、定义sql
-            String sql = "SELECT* FROM user WHERE username='" + username + "'and password='" + password + "'";
-            //3、获取sql对象
-            stmt = conn.createStatement();
-            //4、执行查询
-            rs = stmt.executeQuery(sql);
+            String sql = "SELECT* FROM user WHERE username= ? and password= ?";
+            //3.1、获取sql对象
+            pstmt = conn.prepareStatement(sql);
+            //3.2、给占位符？赋值
+            pstmt.setString(1, username);
+            pstmt.setString(2, password);
+            //4、执行查询，不需要传递sql
+            rs = pstmt.executeQuery();
             //5、判断
             return rs.next();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         } finally {
-            JdbcUtils.close(rs, stmt, conn);
+            JdbcUtils.close(rs, pstmt, conn);
         }
     }
 }
