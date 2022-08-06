@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Annotation/Annotation.iml" filepath="$PROJECT_DIR$/Annotation/Annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb_Workspace.iml" filepath="$PROJECT_DIR$/JavaWeb_Workspace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jdbc/Jdbc.iml" filepath="$PROJECT_DIR$/Jdbc/Jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JunitTest/JunitTest.iml" filepath="$PROJECT_DIR$/JunitTest/JunitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reflect/Reflect.iml" filepath="$PROJECT_DIR$/Reflect/Reflect.iml" />
+    </modules>
+  </component>
+</project>
