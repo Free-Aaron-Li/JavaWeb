@@ -18,5 +18,9 @@ public class Demo1 {
         //1、导入jar包
         //2、创建JDBCTemplate对象
         JdbcTemplate jdbcTemplate = new JdbcTemplate(JdbcUtils.getDataSource());
+        //3、调用方法
+        String sql = "update account set balance=5000 where id=? ";
+        int count = jdbcTemplate.update(sql, 3);
+        System.out.println("count = " + count);
     }
 }
