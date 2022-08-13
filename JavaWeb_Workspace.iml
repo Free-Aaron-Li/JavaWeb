@@ -10,5 +10,7 @@
     <orderEntry type="library" name="libs (4)" level="project" />
     <orderEntry type="library" exported="" name="libs" level="application" />
     <orderEntry type="library" name="libs (5)" level="project" />
+    <orderEntry type="library" name="libs (6)" level="project" />
+    <orderEntry type="library" name="JdbcTemplate" level="project" />
   </component>
 </module>
