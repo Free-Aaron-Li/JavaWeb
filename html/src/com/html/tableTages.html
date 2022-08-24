@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>表格标签</title>
+</head>
+<body>
+<table border="1" width="50%" cellspacing="0" cellpadding="0" bgcolor="#ffc0cb" align="center">
+    <!--标题信息-->
+    <caption>学生成绩信息表</caption>
+
+
+    <thead>
+    <tr>
+        <th>编号</th>
+        <th>姓名</th>
+        <th>成绩</th>
+    </tr>
+    </thead>
+
+
+    <tbody>
+    <tr bgcolor="#adff2f" align="center">
+        <td>1</td>
+        <td>小龙女</td>
+        <td>100</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>杨过</td>
+        <td>50</td>
+    </tr>
+    </tbody>
+
+
+    <tfoot>
+    <tr>
+        <td>3</td>
+        <td>张三</td>
+        <td>0</td>
+    </tr>
+    </tfoot>
+</table>
+
+<hr>
+
+<table border="1" width="50%" cellspacing="0" cellpadding="0" bgcolor="#ffc0cb" align="center">
+    <!--标题信息-->
+    <caption>学生成绩信息表</caption>
+
+    <tr>
+        <th rowspan="2">编号</th>
+        <th>姓名</th>
+        <th>成绩</th>
+    </tr>
+
+    <tr>
+        <td>小龙女</td>
+        <td>100</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td colspan="2">杨过</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
