@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>扩展选择器</title>
+    <style>
+        div > p {
+            border: 1px solid;
+        }
+
+        /*默认URL显示颜色*/
+        a:link {
+            color: pink;
+        }
+
+        /*鼠标悬浮在URL上颜色*/
+        a:hover {
+            color: black;
+        }
+
+        /*  鼠标点击按住URL上颜色*/
+        a:active {
+            color: blue;
+        }
+
+        /*URL被访问后颜色*/
+        a:visited {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <p>hello</p>
+</div>
+<a href="#">hello</a>
+</body>
+</html>
