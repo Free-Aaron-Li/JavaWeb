@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c129aa4-b509-4471-a914-0cde5c808cc5" name="Changes" comment="JDBCTemplate测试">
-      <change afterPath="$PROJECT_DIR$/html/src/com/html/Demo1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.zip" beforeDir="false" afterPath="$PROJECT_DIR$/settings.zip" afterDir="false" />
+    <list default="true" id="0c129aa4-b509-4471-a914-0cde5c808cc5" name="Changes" comment="Function对象">
+      <change afterPath="$PROJECT_DIR$/html/src/com/javascript/object_array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/src/com/javascript/object_array.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,13 +19,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="Class" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Jdbc/src/com/datasource/jdbctemplate/DemoTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/html/src/com/html/Demo1.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/html/src/com/javascript/combination.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/html/src/com/javascript/variable.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/html/src/com/javascript/variable.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,23 +63,31 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/home/AaronLi/Downloads/LiveEdit-222.3739.24.zip",
+    "last_opened_file_path": "/home/AaronLi/Downloads/idea-archive-browser-0.32.zip",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.1195426",
     "project.structure.side.proportion": "0.115555584",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
     "spring.configuration.checksum": "d41d8cd98f00b204e9800998ecf8427e"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html/src/com/resource" />
+      <recent name="$PROJECT_DIR$/html/src/com/photo" />
       <recent name="$PROJECT_DIR$/libs" />
       <recent name="$PROJECT_DIR$/Jdbc/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/html/src/com/resource" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.DemoTest">
@@ -85,54 +102,6 @@
       <option name="PACKAGE_NAME" value="com.datasource.jdbctemplate" />
       <option name="MAIN_CLASS_NAME" value="com.datasource.jdbctemplate.DemoTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Jdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.datasource.jdbctemplate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.datasource.jdbctemplate" />
-      <option name="MAIN_CLASS_NAME" value="com.datasource.jdbctemplate.DemoTest" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Jdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.datasource.jdbctemplate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.datasource.jdbctemplate" />
-      <option name="MAIN_CLASS_NAME" value="com.datasource.jdbctemplate.DemoTest" />
-      <option name="METHOD_NAME" value="test6" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoTest.test6_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Jdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.datasource.jdbctemplate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.datasource.jdbctemplate" />
-      <option name="MAIN_CLASS_NAME" value="com.datasource.jdbctemplate.DemoTest" />
-      <option name="METHOD_NAME" value="test6_2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,13 +122,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="caseTest.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb_Workspace/html/com/html/caseTest.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="photoTag.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb_Workspace/html/com/html/photoTag.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="textTag.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb_Workspace/html/com/html/textTag.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DemoTest.test7" />
-        <item itemvalue="JUnit.DemoTest.test6_2" />
         <item itemvalue="JUnit.DemoTest" />
-        <item itemvalue="JUnit.DemoTest.test6" />
-        <item itemvalue="JUnit.DemoTest.test5" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +148,74 @@
       <updated>1659436021974</updated>
       <workItem from="1660313670479" duration="162000" />
       <workItem from="1660313886221" duration="13000" />
+      <workItem from="1660362798524" duration="16000" />
+      <workItem from="1660448263768" duration="53000" />
+      <workItem from="1660448336266" duration="935000" />
+      <workItem from="1660449285423" duration="44000" />
+      <workItem from="1660449465966" duration="41000" />
+      <workItem from="1660449538732" duration="14000" />
+      <workItem from="1660450740691" duration="16000" />
+      <workItem from="1660451026420" duration="18000" />
+      <workItem from="1660451413316" duration="32000" />
+      <workItem from="1660451842781" duration="12000" />
+      <workItem from="1660472407104" duration="15000" />
+      <workItem from="1660472431804" duration="3000" />
+      <workItem from="1660472695081" duration="15000" />
+      <workItem from="1660473091986" duration="8000" />
+      <workItem from="1660473578923" duration="86000" />
+      <workItem from="1660473676075" duration="436000" />
+      <workItem from="1660474426297" duration="13000" />
+      <workItem from="1660474449879" duration="30000" />
+      <workItem from="1660474489586" duration="1901000" />
+      <workItem from="1660528347106" duration="3659000" />
+      <workItem from="1660533655667" duration="1884000" />
+      <workItem from="1660620862053" duration="755000" />
+      <workItem from="1660794816454" duration="5419000" />
+      <workItem from="1660959489070" duration="1549000" />
+      <workItem from="1661049074902" duration="2790000" />
+      <workItem from="1661066085275" duration="688000" />
+      <workItem from="1661066881511" duration="118000" />
+      <workItem from="1661067012634" duration="1281000" />
+      <workItem from="1661226791827" duration="87000" />
+      <workItem from="1661307255937" duration="607000" />
+      <workItem from="1661308420389" duration="5000" />
+      <workItem from="1661308465327" duration="6000" />
+      <workItem from="1661308534880" duration="80000" />
+      <workItem from="1661308632685" duration="1857000" />
+      <workItem from="1661310512061" duration="61000" />
+      <workItem from="1661310640528" duration="1948000" />
+      <workItem from="1661312605123" duration="9000" />
+      <workItem from="1661312678131" duration="2745000" />
+      <workItem from="1661325707295" duration="2637000" />
+      <workItem from="1661328781942" duration="6317000" />
+      <workItem from="1661336165370" duration="317000" />
+      <workItem from="1661404325298" duration="4034000" />
+      <workItem from="1661408377309" duration="3016000" />
+      <workItem from="1661418916881" duration="1697000" />
+      <workItem from="1661436771663" duration="2681000" />
+      <workItem from="1661497523083" duration="6782000" />
+      <workItem from="1661591658098" duration="1598000" />
+      <workItem from="1661596423526" duration="37000" />
+      <workItem from="1661600894318" duration="159000" />
+      <workItem from="1661657451462" duration="1207000" />
+      <workItem from="1661741351164" duration="5687000" />
+      <workItem from="1661768131729" duration="20000" />
+      <workItem from="1661768190608" duration="1812000" />
+      <workItem from="1661835262384" duration="4007000" />
+      <workItem from="1661863170129" duration="1410000" />
+      <workItem from="1661910478191" duration="3049000" />
+      <workItem from="1661932738373" duration="330000" />
+      <workItem from="1661936556068" duration="599000" />
+      <workItem from="1661943954962" duration="2821000" />
+      <workItem from="1662018683852" duration="689000" />
+      <workItem from="1662031296999" duration="5857000" />
+      <workItem from="1662079606811" duration="3968000" />
+      <workItem from="1662085919477" duration="806000" />
+      <workItem from="1662087364763" duration="27000" />
+      <workItem from="1662087404778" duration="12000" />
+      <workItem from="1662087475814" duration="620000" />
+      <workItem from="1662107838758" duration="6639000" />
+      <workItem from="1662174357632" duration="6860000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1659498500306</created>
@@ -321,7 +364,119 @@
       <option name="project" value="LOCAL" />
       <updated>1660298983426</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="更新">
+      <created>1660811256823</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1660811256823</updated>
+    </task>
+    <task id="LOCAL-00023" summary="更新">
+      <created>1661326275022</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1661326275022</updated>
+    </task>
+    <task id="LOCAL-00024" summary="更新">
+      <created>1661336177826</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1661336177826</updated>
+    </task>
+    <task id="LOCAL-00025" summary="更新HTML-表单">
+      <created>1661409969576</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1661409969576</updated>
+    </task>
+    <task id="LOCAL-00026" summary="更新">
+      <created>1661410028285</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1661410028285</updated>
+    </task>
+    <task id="LOCAL-00027" summary="HTML案例1-注册页面">
+      <created>1661419073210</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1661419073210</updated>
+    </task>
+    <task id="LOCAL-00028" summary="CSS">
+      <created>1661768222377</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1661768222378</updated>
+    </task>
+    <task id="LOCAL-00029" summary="CSS">
+      <created>1661932794832</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1661932794832</updated>
+    </task>
+    <task id="LOCAL-00030" summary="JS">
+      <created>1662032694758</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1662032694758</updated>
+    </task>
+    <task id="LOCAL-00031" summary="JS变量">
+      <created>1662037875662</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1662037875662</updated>
+    </task>
+    <task id="LOCAL-00032" summary="更新">
+      <created>1662037906876</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1662037906876</updated>
+    </task>
+    <task id="LOCAL-00033" summary="比较运算符">
+      <created>1662085352534</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1662085352534</updated>
+    </task>
+    <task id="LOCAL-00034" summary="变量">
+      <created>1662085412411</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1662085412412</updated>
+    </task>
+    <task id="LOCAL-00035" summary="特殊语法">
+      <created>1662116297511</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1662116297511</updated>
+    </task>
+    <task id="LOCAL-00036" summary="练习-九九乘法表">
+      <created>1662174520455</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1662174520455</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Function对象">
+      <created>1662176812216</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1662176812216</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,10 +503,20 @@
     <MESSAGE value="导入C3P0及Druid数据库连接池驱动jar包" />
     <MESSAGE value="事务操作" />
     <MESSAGE value="数据库连接池基本使用" />
-    <MESSAGE value="更新" />
     <MESSAGE value="JDBCTemplate简单使用" />
     <MESSAGE value="JDBCTemplate测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="JDBCTemplate测试" />
+    <MESSAGE value="更新HTML-表单" />
+    <MESSAGE value="HTML案例1-注册页面" />
+    <MESSAGE value="CSS" />
+    <MESSAGE value="JS" />
+    <MESSAGE value="JS变量" />
+    <MESSAGE value="更新" />
+    <MESSAGE value="比较运算符" />
+    <MESSAGE value="变量" />
+    <MESSAGE value="特殊语法" />
+    <MESSAGE value="练习-九九乘法表" />
+    <MESSAGE value="Function对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="Function对象" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
