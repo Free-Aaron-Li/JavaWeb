@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c129aa4-b509-4471-a914-0cde5c808cc5" name="Changes" comment="Function对象">
-      <change afterPath="$PROJECT_DIR$/html/src/com/javascript/object_array.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/src/com/javascript/object_array.js" afterDir="false" />
+    <list default="true" id="0c129aa4-b509-4471-a914-0cde5c808cc5" name="Changes" comment="Array对象">
+      <change afterPath="$PROJECT_DIR$/html/src/com/javascript/object_date.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/src/com/javascript/object_date.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +215,7 @@
       <workItem from="1662087404778" duration="12000" />
       <workItem from="1662087475814" duration="620000" />
       <workItem from="1662107838758" duration="6639000" />
-      <workItem from="1662174357632" duration="6860000" />
+      <workItem from="1662174357632" duration="7177000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1659498500306</created>
@@ -476,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662176812216</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Array对象">
+      <created>1662193243481</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1662193243481</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +523,8 @@
     <MESSAGE value="特殊语法" />
     <MESSAGE value="练习-九九乘法表" />
     <MESSAGE value="Function对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="Function对象" />
+    <MESSAGE value="Array对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array对象" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
