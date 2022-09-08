@@ -7,12 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c129aa4-b509-4471-a914-0cde5c808cc5" name="Changes" comment="dom与事件简略了解">
-      <change afterPath="$PROJECT_DIR$/html/src/com/bom/windowProject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/src/com/cases/案例1点灯开关.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/src/com/cases/案例2轮播图.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/src/com/resource/javascript高级/案例1点灯开关/off.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/src/com/resource/javascript高级/案例1点灯开关/on.gif" afterDir="false" />
+    <list default="true" id="0c129aa4-b509-4471-a914-0cde5c808cc5" name="Changes" comment="案例1">
+      <change afterPath="$PROJECT_DIR$/html/src/com/cases/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/src/com/resource/javascript高级/案例2轮播图/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/src/com/resource/javascript高级/案例2轮播图/banner_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/src/com/resource/javascript高级/案例2轮播图/banner_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/src/com/cases/案例2轮播图.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/com/cases/案例2轮播图.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "js.last.introduce.type": "VAR",
-    "last_opened_file_path": "/home/AaronLi/JavaWeb_Workspace/html/src/com/resource/javascript高级/案例1点灯开关",
+    "last_opened_file_path": "/home/AaronLi/JavaWeb_Workspace/html/src/com/resource/javascript高级/案例2轮播图",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -84,11 +84,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html/src/com/resource/javascript高级/案例2轮播图" />
       <recent name="$PROJECT_DIR$/html/src/com/resource/javascript高级/案例1点灯开关" />
       <recent name="$PROJECT_DIR$/html/src/com/resource" />
       <recent name="$PROJECT_DIR$/html/src/com/photo" />
       <recent name="$PROJECT_DIR$/libs" />
-      <recent name="$PROJECT_DIR$/Jdbc/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -96,7 +96,7 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.DemoTest">
-    <configuration name="DemoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Jdbc" />
       <extension name="coverage">
         <pattern>
@@ -142,7 +142,6 @@
         <item itemvalue="JavaScript Debug.photoTag.html" />
         <item itemvalue="JavaScript Debug.caseTest.html" />
         <item itemvalue="JUnit.DemoTest.test7" />
-        <item itemvalue="JUnit.DemoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +230,8 @@
       <workItem from="1662359856505" duration="6801000" />
       <workItem from="1662452182399" duration="3831000" />
       <workItem from="1662599222943" duration="87000" />
-      <workItem from="1662599325529" duration="8664000" />
+      <workItem from="1662599325529" duration="10762000" />
+      <workItem from="1662642439819" duration="3829000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1659498500306</created>
@@ -541,7 +541,28 @@
       <option name="project" value="LOCAL" />
       <updated>1662626211708</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="图片资源">
+      <created>1662626254604</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1662626254604</updated>
+    </task>
+    <task id="LOCAL-00046" summary="bom_Window对象">
+      <created>1662626304155</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1662626304155</updated>
+    </task>
+    <task id="LOCAL-00047" summary="案例1">
+      <created>1662626335713</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1662626335713</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +573,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -560,9 +593,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="添加注释结束点" />
-    <MESSAGE value="JDBC事务管理" />
-    <MESSAGE value="导入C3P0及Druid数据库连接池驱动jar包" />
     <MESSAGE value="事务操作" />
     <MESSAGE value="数据库连接池基本使用" />
     <MESSAGE value="JDBCTemplate简单使用" />
@@ -585,7 +615,10 @@
     <MESSAGE value="Global对象" />
     <MESSAGE value="修改名称" />
     <MESSAGE value="dom与事件简略了解" />
-    <option name="LAST_COMMIT_MESSAGE" value="dom与事件简略了解" />
+    <MESSAGE value="图片资源" />
+    <MESSAGE value="bom_Window对象" />
+    <MESSAGE value="案例1" />
+    <option name="LAST_COMMIT_MESSAGE" value="案例1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
