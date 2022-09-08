@@ -7,8 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c129aa4-b509-4471-a914-0cde5c808cc5" name="Changes" comment="Array对象">
-      <change beforePath="$PROJECT_DIR$/html/src/com/javascript/object_date.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/com/javascript/object_date.js" afterDir="false" />
+    <list default="true" id="0c129aa4-b509-4471-a914-0cde5c808cc5" name="Changes" comment="dom与事件简略了解">
+      <change afterPath="$PROJECT_DIR$/html/src/com/bom/windowProject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/src/com/cases/案例1点灯开关.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/src/com/cases/案例2轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/src/com/resource/javascript高级/案例1点灯开关/off.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/src/com/resource/javascript高级/案例1点灯开关/on.gif" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +24,8 @@
       <list>
         <option value="CSS File" />
         <option value="Class" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -30,10 +34,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Jdbc/src/com/datasource/jdbctemplate/DemoTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/html/src/com/ecmascript/combination.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/html/src/com/ecmascript/variable.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/html/src/com/ecmascript/variable.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/html/src/com/html/Demo1.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/html/src/com/javascript/combination.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/html/src/com/javascript/variable.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/html/src/com/javascript/variable.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -62,7 +66,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/home/AaronLi/Downloads/idea-archive-browser-0.32.zip",
+    "js.last.introduce.type": "VAR",
+    "last_opened_file_path": "/home/AaronLi/JavaWeb_Workspace/html/src/com/resource/javascript高级/案例1点灯开关",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -73,12 +78,13 @@
     "project.structure.proportion": "0.1195426",
     "project.structure.side.proportion": "0.115555584",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "spring.configuration.checksum": "d41d8cd98f00b204e9800998ecf8427e"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html/src/com/resource/javascript高级/案例1点灯开关" />
       <recent name="$PROJECT_DIR$/html/src/com/resource" />
       <recent name="$PROJECT_DIR$/html/src/com/photo" />
       <recent name="$PROJECT_DIR$/libs" />
@@ -132,6 +138,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.textTag.html" />
+        <item itemvalue="JavaScript Debug.photoTag.html" />
+        <item itemvalue="JavaScript Debug.caseTest.html" />
         <item itemvalue="JUnit.DemoTest.test7" />
         <item itemvalue="JUnit.DemoTest" />
       </list>
@@ -216,6 +225,13 @@
       <workItem from="1662107838758" duration="6639000" />
       <workItem from="1662174357632" duration="9655000" />
       <workItem from="1662212704430" duration="125000" />
+      <workItem from="1662261254334" duration="788000" />
+      <workItem from="1662279919261" duration="139000" />
+      <workItem from="1662348336482" duration="2736000" />
+      <workItem from="1662359856505" duration="6801000" />
+      <workItem from="1662452182399" duration="3831000" />
+      <workItem from="1662599222943" duration="87000" />
+      <workItem from="1662599325529" duration="8664000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1659498500306</created>
@@ -483,7 +499,49 @@
       <option name="project" value="LOCAL" />
       <updated>1662193243481</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Date对象">
+      <created>1662348927571</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1662348927571</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Math对象">
+      <created>1662361986002</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1662361986002</updated>
+    </task>
+    <task id="LOCAL-00041" summary="RegExp对象">
+      <created>1662363613611</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1662363613611</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Global对象">
+      <created>1662365669712</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1662365669713</updated>
+    </task>
+    <task id="LOCAL-00043" summary="修改名称">
+      <created>1662457363550</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1662457363550</updated>
+    </task>
+    <task id="LOCAL-00044" summary="dom与事件简略了解">
+      <created>1662626211708</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1662626211708</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,9 +560,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="更新IDEA配置信息" />
-    <MESSAGE value="更换包名" />
-    <MESSAGE value="JDBC查询练习" />
     <MESSAGE value="添加注释结束点" />
     <MESSAGE value="JDBC事务管理" />
     <MESSAGE value="导入C3P0及Druid数据库连接池驱动jar包" />
@@ -524,7 +579,13 @@
     <MESSAGE value="练习-九九乘法表" />
     <MESSAGE value="Function对象" />
     <MESSAGE value="Array对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array对象" />
+    <MESSAGE value="Date对象" />
+    <MESSAGE value="Math对象" />
+    <MESSAGE value="RegExp对象" />
+    <MESSAGE value="Global对象" />
+    <MESSAGE value="修改名称" />
+    <MESSAGE value="dom与事件简略了解" />
+    <option name="LAST_COMMIT_MESSAGE" value="dom与事件简略了解" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
