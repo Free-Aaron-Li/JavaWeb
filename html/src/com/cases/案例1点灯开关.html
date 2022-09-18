@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="cn">
+
 <head>
-    <meta charset="UTF-8">
-    <title>点灯开关</title>
+  <meta charset="UTF-8">
+  <title>点灯开关</title>
 </head>
+
 <body>
-<img id="off" src="../resource/javascript高级/案例1点灯开关/off.gif">
+  <img id="off" src="../resource/javascript高级/案例1点灯开关/off.gif">
 
 
-<script>
+  <script>
     /*
     *分析：
     *       1、获取图片对象
@@ -26,15 +28,16 @@
     var flag = false; //代表灯是灭的，off图片
     //2、绑定单机事件
     off.onclick = function () {
-        if (flag) {//判断如果灯是开的，则灭掉
-            off.src = "../resource/javascript高级/案例1点灯开关/off.gif"
-            flag = false;
-        } else {//判断如果灯是灭的，则打开
-            off.src = "../resource/javascript高级/案例1点灯开关/on.gif"
-            flag = true;
-        }
+      if (flag) {//判断如果灯是开的，则灭掉
+        off.src = "../resource/javascript高级/案例1点灯开关/off.gif"
+        flag = false;
+      } else {//判断如果灯是灭的，则打开
+        off.src = "../resource/javascript高级/案例1点灯开关/on.gif"
+        flag = true;
+      }
     }
 
-</script>
+  </script>
 </body>
+
 </html>
