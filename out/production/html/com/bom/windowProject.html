@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>BOM_窗口对象</title>
+</head>
+<body>
+<input id="openNewWindow" type="button" value="打开窗口">
+<input id="closeWindow" type="button" value="关闭窗口">
+
+<script>
+    /*
+    *window：窗口对象
+    *   1、创建
+    *   2、方法
+    *         1、与弹出框有关
+    *               alert()：弹出警告框
+    *               confirm()：确认取消对话框
+    *                   如果用户点击确定，返回true。反之，返回false。
+    *               prompt()：用户输入框
+    *                  返回值：用户输入值
+    *           2、打开关闭方法
+    *                  close()：打开新的浏览器窗口
+    *                   谁调用我，我关谁
+    *                  open()：关闭浏览器窗口
+    *                   返回一个新的Window对象
+    *            3、与定时器有关的方法
+    *                  setTimeout()：指定一定时间就执行该方法，但只执行一次
+    *                    参数：
+    *                              1、JS代码或者方法对象
+    *                              2、毫秒值
+    *                              3、返回值：唯一标识，用于取消定时器
+    *                  clearTimeout()：取消由setTimeout()方法设置的Timeout
+    *                  setInterval()：按照指定的周期（以毫秒计）来调用函数或计算表达式
+    *                  clearInterval()：取消有setInterval()设置的timeout
+    *   3、属性
+    *         1、获取其他BOM对象
+    *               history
+    *               Location
+    *               Navigate
+    *               Screen
+    *        2、获取DOM对象
+    *              document
+    *   4、特点
+    *         window对象不需要创建可以直接使用window。window.方法名
+    *         window引用可以省略。方法名();
+    *
+    * */
+
+    /*
+        window.alert("hello world!")
+        var flog = confirm("您确定要退出吗？")
+        alert(flog);
+
+        //输入框
+        var result = prompt("请输入用户名");
+        alert(result);
+    */
+
+    /*
+     var openNewWindow = document.getElementById("openNewWindow");
+     var newWindow;
+     openNewWindow.onclick = function () {
+         //打开新窗口
+         newWindow = open("http://www.google.com");
+     }
+
+     //关闭窗口
+     var closeWindow = document.getElementById("closeWindow");
+     closeWindow.onclick = function () {
+         //关闭窗口
+         newWindow.close();
+     }
+     */
+
+    //一次性定时器
+    //var timeout = setTimeout(fun(), 2000);
+    //取消定时器
+    //clearTimeout(timeout);
+
+    function fun() {
+        alert("boom~~");
+    }
+
+    //循环定时器
+    var interval = setInterval(fun, 2000);
+    //取消定时器
+    clearInterval(interval);
+
+    //获取当前历史记录
+    var h1 = window.history;
+    var h2 = history;
+    alert(h1);
+    alert(h2);
+    var openBtn = document.getElementById("openBtn");
+    alert(openBtn);
+</script>
+</body>
+</html>

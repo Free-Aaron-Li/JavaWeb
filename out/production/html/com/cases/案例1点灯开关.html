@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+  <meta charset="UTF-8">
+  <title>点灯开关</title>
+</head>
+
+<body>
+  <img id="off" src="../resource/javascript高级/案例1点灯开关/off.gif">
+
+
+  <script>
+    /*
+    *分析：
+    *       1、获取图片对象
+    *       2、绑定单机事件
+    *       3、每次点击切换图片
+    *            规则：
+    *                     如果灯是开的on，切换图片为off
+    *                     如果灯是关的off，切换图片为on
+    *             使用标记flag来完成
+    * */
+
+    //1、获取图片对象
+    var off = document.getElementById("off");
+
+    var flag = false; //代表灯是灭的，off图片
+    //2、绑定单机事件
+    off.onclick = function () {
+      if (flag) {//判断如果灯是开的，则灭掉
+        off.src = "../resource/javascript高级/案例1点灯开关/off.gif"
+        flag = false;
+      } else {//判断如果灯是灭的，则打开
+        off.src = "../resource/javascript高级/案例1点灯开关/on.gif"
+        flag = true;
+      }
+    }
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>获取元素对象</title>
+
+</head>
+<body>
+<h1 id="title">Welcome to the JavaScript</h1>
+<img src="./../resource/HTML学完表单案例图片/logo.jpg" alt="logo" id="logo"/>
+
+<script>
+
+    //通过id获取元素对象
+    var logo = document.getElementById("logo");
+    alert(logo);
+
+    alert("我要换图片了！");
+    logo.src = "./../resource/HTML学完表单案例图片/login_bg.png";
+
+    //1、获取h1标签对象
+    var title = document.getElementById("title");
+    alert("我要换内容了！")
+    //2、修改内容
+    title.innerHTML = "hahaha";
+</script>
+</body>
+</html>
