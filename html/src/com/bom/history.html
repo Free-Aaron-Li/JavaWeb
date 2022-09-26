@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>History对象</title>
+
+</head>
+<body>
+<input type="button" id="btn" value="获取历史记录个数">
+<a href="./../cases/案例1点灯开关.html">点灯开关页面</a>
+<input type="button" id="forward" value="前进">
+<script>
+    /*
+History：历史记录对象
+    1、创建（获取）
+        1、window.history
+        2、history
+    2、方法
+        back() 加载history列表中的前一个URL
+        forward() 加载history列表中的下一个URL
+        go() 加载history列表中的某个具体页面
+            参数：
+                正数：前进几个历史记录
+                负数：后退几个历史记录
+    3、属性
+         length 返回当前窗口历史列表中的URL数量
+
+     */
+    //1、获取按钮
+    var btn = document.getElementById("btn");
+    //2、绑定单机事件
+    btn.onclick = function () {
+        //3、获取当前窗口历史记录个数
+        var length = history.length;
+        alert(length);
+    }
+
+    //前进按钮，前进方法
+    var forward = document.getElementById("forward");
+    forward.onclick = function () {
+        //前进
+        // history.forward();
+        history.go(1);
+    }
+</script>
+</body>
+</html>

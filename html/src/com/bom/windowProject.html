@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>BOM_窗口对象</title>
-
 </head>
 <body>
 <input id="openNewWindow" type="button" value="打开窗口">
@@ -35,6 +34,13 @@
     *                  setInterval()：按照指定的周期（以毫秒计）来调用函数或计算表达式
     *                  clearInterval()：取消有setInterval()设置的timeout
     *   3、属性
+    *         1、获取其他BOM对象
+    *               history
+    *               Location
+    *               Navigate
+    *               Screen
+    *        2、获取DOM对象
+    *              document
     *   4、特点
     *         window对象不需要创建可以直接使用window。window.方法名
     *         window引用可以省略。方法名();
@@ -81,6 +87,13 @@
     //取消定时器
     clearInterval(interval);
 
+    //获取当前历史记录
+    var h1 = window.history;
+    var h2 = history;
+    alert(h1);
+    alert(h2);
+    var openBtn = document.getElementById("openBtn");
+    alert(openBtn);
 </script>
 </body>
 </html>
