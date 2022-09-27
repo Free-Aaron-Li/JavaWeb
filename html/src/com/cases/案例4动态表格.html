@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>案例4动态表格</title>
+    <style>
+        table {
+            border: 1px solid;
+            margin: auto;
+            width: 500px;
+        }
+
+        td, th {
+            text-align: center;
+            border: 1px solid;
+        }
+
+        div {
+            text-align: center;
+            margin: 50px;
+        }
+    </style>
+
+</head>
+<body>
+
+<div>
+    <input type="text" id="id" placeholder="请输入编号">
+    <input type="text" id="name" placeholder="请输入姓名">
+    <input type="text" id="gender" placeholder="请输入性别">
+    <input type="button" value="添加" id="btn_add">
+
+</div>
+
+<table>
+    <caption>学生信息表</caption>
+    <tr>
+        <th>编号</th>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>操作</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>令狐冲</td>
+        <td>男</td>
+        <td><a href="javascript:void(0);" onclick="delTr(this);">删除</a></td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>任我行</td>
+        <td>男</td>
+        <td><a href="javascript:void(0);" onclick="delTr(this)">删除</a></td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>岳不群</td>
+        <td>?</td>
+        <td><a href="javascript:void(0);" onclick="delTr(this)">删除</a></td>
+    </tr>
+
+</table>
+<script>
+    /*
+        分析：
+            1、添加:
+                1、给添加按钮绑定单机事件
+                2、获取文本框内容
+                3、创建tr,td，去设置td的文本为文本框内容。
+                4、创建tr
+                5、将td添加到tr中
+                6、获取table,将tr添加到table中
+            2、删除：
+                1、确定点击的哪一个超链接
+                    onclick="delTr(this)"确定
+                2、怎么删除
+
+     */
+    //方法一
+    //1、获取按钮
+    /* document.getelementbyid("btn_add").onclick = function () {
+         //2、获取文本框内容
+         var id = document.getelementbyid("id").value;
+         var name = document.getelementbyid("name").value;
+         var gender = document.getelementbyid("gender").value;
+
+         //3、创建td，赋值td的标签体
+
+         //id的td
+         var td_id = document.createelement("td");
+         var text_id = document.createtextnode(id);
+         td_id.appendchild(text_id);
+         //name的td
+         var td_name = document.createelement("td");
+         var text_name = document.createtextnode(name);
+         td_name.appendchild(text_name);
+         //gender的td
+         var td_gender = document.createelement("td");
+         var text_gender = document.createtextnode(gender);
+         td_gender.appendchild(text_gender);
+         //a标签的td
+         var td_a = document.createelement("td");
+         var ele_a = document.createelement("a");
+         ele_a.setattribute("href", "javascript:void(0);");
+         ele_a.setattribute("onclick","deltr(this);");
+         var text_a = document.createtextnode("删除");
+         ele_a.appendchild(text_a);
+         td_a.appendchild(ele_a);
+
+         //4、创建tr
+         var tr = document.createelement("tr");
+
+         //5、添加td到tr中
+         tr.appendchild(td_id);
+         tr.appendchild(td_name);
+         tr.appendchild(td_gender);
+         tr.appendchild(td_a);
+         //6、获取table
+         var table = document.getelementsbytagname("table")[0];
+         table.appendchild(tr);
+     }*/
+
+    //方法二
+    //添加方法
+    /*
+        使用innerHTML添加
+     */
+    document.getElementById("btn_add").onclick = function () {
+        //2、获取文本框内容
+        var id = document.getElementById("id").value;
+        var name = document.getElementById("name").value;
+        var gender = document.getElementById("gender").value;
+
+        //3、获取table
+        var table = document.getElementsByTagName("table")[0];
+
+        //4、追加一行
+        table.innerHTML += "<tr>\n" +
+            "<td>" + id + "</td>\n" +
+            "<td>" + name + "</td>\n" +
+            "<td>" + gender + "</td>\n" +
+            "<td><a href=\"javascript:void(0);\" onclick=\"delTr(this);\">删除</a></td>\n" +
+            "</tr>";
+    }
+
+
+    //删除方法
+    function delTr(obj) {
+        var table = obj.parentNode.parentNode.parentNode;
+        var tr = obj.parentNode.parentNode;
+        table.removeChild(tr);
+    }
+</script>
+</body>
+</html>
