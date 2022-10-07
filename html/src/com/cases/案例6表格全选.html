@@ -19,6 +19,20 @@
             margin-top: 10px;
             margin-left: 30%;
         }
+
+        /*
+        元素移出背景色
+        */
+        .out {
+            background-color: white;
+        }
+
+        /*
+        移动到元素之上背景色
+        */
+        .over {
+            background-color: pink;
+        }
     </style>
 
     <script>
@@ -30,11 +44,58 @@
 
          */
         //1、在页面加载完绑定事件
-        window.onload = function() {
+        window.onload = function () {
             //2、给全选按钮绑定单击事件
-            document.getElementById("selectAll").onclick = function() {
-
+            // 全选
+            document.getElementById("selectAll").onclick = function () {
+                const cbs = document.getElementsByName("cb");
+                //2、遍历
+                for (let i = 0; i < cbs.length; i++) {
+                    //3、设置每一个cb的状态为选中，checked
+                    cbs[i].checked = true;
+                }
             }
+            //未选
+            document.getElementById("unSelectAll").onclick = function () {
+                const cbs = document.getElementsByName("cb");
+                //2、遍历
+                for (let i = 0; i < cbs.length; i++) {
+                    //3、设置每一个cb的状态为未选中，checked
+                    cbs[i].checked = false;
+                }
+            }
+            //反选
+            document.getElementById("selectRev").onclick = function () {
+                const cbs = document.getElementsByName("cb");
+                //2、遍历
+                for (let i = 0; i < cbs.length; i++) {
+                    //3、设置每一个cb的状态为未选中，checked
+                    cbs[i].checked = !cbs[i].checked;
+                }
+            }
+            //第一个选中为全选
+            document.getElementById("firstCb").onclick = function () {
+                const cbs = document.getElementsByName("cb");
+                //2、遍历
+                for (let i = 0; i < cbs.length; i++) {
+                    //3、设置每一个cb的状态和第一个cb的状态一样
+                    cbs[i].checked = this.checked;
+                }
+            }
+
+            //给所有tr绑定鼠标移动元素之上和移出元素之上事件
+            const trs = document.getElementsByTagName("tr");
+            for (let i = 0; i < trs.length; i++) {
+                //移到元素之上
+                trs[i].onmouseover = function () {
+                    this.className = "over";
+                }
+                //移出元素
+                trs[i].onmouseout = function () {
+                    this.className = "out";
+                }
+            }
+
         }
     </script>
 
@@ -44,7 +105,11 @@
 <table>
     <caption>学生信息表</caption>
     <tr>
-        <th><input type="checkbox" name="cb"></th>
+        <th>
+            <label>
+                <input type="checkbox" name="cb" id="firstCb">
+            </label>
+        </th>
         <th>编号</th>
         <th>姓名</th>
         <th>性别</th>
@@ -52,7 +117,11 @@
     </tr>
 
     <tr>
-        <td><input type="checkbox" name="cb"></td>
+        <td>
+            <label>
+                <input type="checkbox" name="cb">
+            </label>
+        </td>
         <td>1</td>
         <td>令狐冲</td>
         <td>男</td>
@@ -60,7 +129,11 @@
     </tr>
 
     <tr>
-        <td><input type="checkbox" name="cb"></td>
+        <td>
+            <label>
+                <input type="checkbox" name="cb">
+            </label>
+        </td>
         <td>2</td>
         <td>任我行</td>
         <td>男</td>
@@ -68,7 +141,11 @@
     </tr>
 
     <tr>
-        <td><input type="checkbox" name="cb"></td>
+        <td>
+            <label>
+                <input type="checkbox" name="cb">
+            </label>
+        </td>
         <td>3</td>
         <td>岳不群</td>
         <td>?</td>
