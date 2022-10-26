@@ -7,28 +7,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c129aa4-b509-4471-a914-0cde5c808cc5" name="Changes" comment="案例2轮播图">
-      <change beforePath="$PROJECT_DIR$/Jdbc/src/com/jdbc/demo/JdbcDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Jdbc/src/com/jdbc/demo/JdbcDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jdbc/src/com/jdbc/utils/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Jdbc/src/com/jdbc/utils/JdbcUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jdbc/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Jdbc/src/druid.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/com/cases/案例1点灯开关.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/com/cases/案例1点灯开关.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/com/css/styleOne.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/com/css/styleOne.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/com/html/baseSelector.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/com/html/baseSelector.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/com/html/caseTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/com/html/caseTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/src/com/html/listTags.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/src/com/html/listTags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jdbc/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jdbc/druid.properties" afterDir="false" />
+    <list default="true" id="0c129aa4-b509-4471-a914-0cde5c808cc5" name="Changes" comment="Jsoup解析器的Document类方法的种类及使用">
+      <change beforePath="$PROJECT_DIR$/out/production/xml/student.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xml/student.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
+        <option value="xml" />
         <option value="CSS File" />
         <option value="Class" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -42,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/html/src/com/ecmascript/variable.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/html/src/com/ecmascript/variable.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/html/src/com/html/Demo1.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/java/src/com/singleton/Test1.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -71,35 +72,106 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;js.last.introduce.type&quot;: &quot;VAR&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/AaronLi/JavaWeb_Workspace&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/AaronLi/JavaWeb_Workspace/xml/src&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.1195426&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.115555584&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.16653816&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.22203098&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;d41d8cd98f00b204e9800998ecf8427e&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.factorypattern.abstractfactory" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/html/src/com/resource/javascript高级/案例2轮播图" />
-      <recent name="$PROJECT_DIR$/html/src/com/resource/javascript高级/案例1点灯开关" />
-      <recent name="$PROJECT_DIR$/html/src/com/resource" />
-      <recent name="$PROJECT_DIR$/html/src/com/photo" />
-      <recent name="$PROJECT_DIR$/libs" />
+      <recent name="$PROJECT_DIR$/xml/src" />
+      <recent name="$PROJECT_DIR$/xml/src/com/xml/schema" />
+      <recent name="$PROJECT_DIR$/xml/src/com/xml/dtd" />
+      <recent name="$PROJECT_DIR$/html/src/com/bootstrap/js" />
+      <recent name="$PROJECT_DIR$/html/src/com/bootstrap" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xml/src" />
+      <recent name="$PROJECT_DIR$/libs" />
+      <recent name="$PROJECT_DIR$/xml/src/com/xml" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/html/src/com/resource" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DemoTest">
+  <component name="RunManager" selected="Application.JsoupDemo3">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.factorypattern.abstractfactory.Client" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.factorypattern.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xml.jsoup.JsonDemo2" />
+      <module name="xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xml.jsoup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsoupDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xml.jsoup.JsoupDemo1" />
+      <module name="xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xml.jsoup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsoupDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xml.jsoup.JsoupDemo3" />
+      <module name="xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xml.jsoup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.factorypattern.Simplefactory.SimpleFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.factorypattern.Simplefactory.SimpleFactory" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.factorypattern.Simplefactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Jdbc" />
       <extension name="coverage">
@@ -115,34 +187,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoTest.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Jdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.datasource.jdbctemplate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.datasource.jdbctemplate" />
-      <option name="MAIN_CLASS_NAME" value="com.datasource.jdbctemplate.DemoTest" />
-      <option name="METHOD_NAME" value="test7" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="caseTest.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb_Workspace/html/com/html/caseTest.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="photoTag.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb_Workspace/html/com/html/photoTag.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="textTag.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb_Workspace/html/com/html/textTag.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DemoTest.test7" />
+        <item itemvalue="Application.JsoupDemo3" />
+        <item itemvalue="Application.JsonDemo2" />
+        <item itemvalue="Application.JsoupDemo1" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.com.factorypattern.Simplefactory.SimpleFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -234,83 +285,71 @@
       <workItem from="1662599325529" duration="10762000" />
       <workItem from="1662642439819" duration="4132000" />
       <workItem from="1662731327070" duration="4000" />
-    </task>
-    <task id="LOCAL-00001" summary="更新">
-      <created>1659498500306</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1659498500306</updated>
-    </task>
-    <task id="LOCAL-00002" summary="更新">
-      <created>1659500153066</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1659500153066</updated>
-    </task>
-    <task id="LOCAL-00003" summary="更新IDEA配置信息">
-      <created>1659532715765</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1659532715765</updated>
-    </task>
-    <task id="LOCAL-00004" summary="更新">
-      <created>1659537470113</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1659537470113</updated>
-    </task>
-    <task id="LOCAL-00005" summary="更新">
-      <created>1659687563058</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1659687563058</updated>
-    </task>
-    <task id="LOCAL-00006" summary="更新">
-      <created>1659689057136</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1659689057136</updated>
-    </task>
-    <task id="LOCAL-00007" summary="更新">
-      <created>1659689557037</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1659689557037</updated>
-    </task>
-    <task id="LOCAL-00008" summary="更换包名">
-      <created>1659689727083</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1659689727083</updated>
-    </task>
-    <task id="LOCAL-00009" summary="JDBC查询练习">
-      <created>1659692837020</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1659692837020</updated>
-    </task>
-    <task id="LOCAL-00010" summary="更新">
-      <created>1659707317831</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1659707317831</updated>
-    </task>
-    <task id="LOCAL-00011" summary="添加注释结束点">
-      <created>1659710923295</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1659710923295</updated>
+      <workItem from="1664013827432" duration="124000" />
+      <workItem from="1664013961401" duration="176000" />
+      <workItem from="1664014147085" duration="461000" />
+      <workItem from="1664014635657" duration="223000" />
+      <workItem from="1664014870708" duration="197000" />
+      <workItem from="1664015080879" duration="629000" />
+      <workItem from="1664015724186" duration="307000" />
+      <workItem from="1664016048943" duration="625000" />
+      <workItem from="1664016686899" duration="1437000" />
+      <workItem from="1664025309305" duration="120000" />
+      <workItem from="1664025443297" duration="132000" />
+      <workItem from="1664025589763" duration="422000" />
+      <workItem from="1664026025155" duration="1790000" />
+      <workItem from="1664027830776" duration="790000" />
+      <workItem from="1664028635981" duration="679000" />
+      <workItem from="1664029330849" duration="1663000" />
+      <workItem from="1664031015967" duration="766000" />
+      <workItem from="1664031858148" duration="1359000" />
+      <workItem from="1664073943667" duration="836000" />
+      <workItem from="1664074793602" duration="312000" />
+      <workItem from="1664075118970" duration="420000" />
+      <workItem from="1664075554610" duration="3181000" />
+      <workItem from="1664094734193" duration="1594000" />
+      <workItem from="1664096591574" duration="4301000" />
+      <workItem from="1664101642364" duration="5308000" />
+      <workItem from="1664160852704" duration="1208000" />
+      <workItem from="1664170372911" duration="624000" />
+      <workItem from="1664187998100" duration="335000" />
+      <workItem from="1664188361216" duration="2098000" />
+      <workItem from="1664192258170" duration="481000" />
+      <workItem from="1664192763929" duration="5123000" />
+      <workItem from="1664201577652" duration="682000" />
+      <workItem from="1664202288595" duration="64000" />
+      <workItem from="1664202372706" duration="6742000" />
+      <workItem from="1664238883295" duration="6910000" />
+      <workItem from="1664357655981" duration="3493000" />
+      <workItem from="1664373051986" duration="603000" />
+      <workItem from="1664375038202" duration="5744000" />
+      <workItem from="1664382486058" duration="195000" />
+      <workItem from="1665148970648" duration="35000" />
+      <workItem from="1665149308047" duration="59000" />
+      <workItem from="1665197468407" duration="177000" />
+      <workItem from="1665197689268" duration="21000" />
+      <workItem from="1665197761668" duration="5602000" />
+      <workItem from="1665214694684" duration="6602000" />
+      <workItem from="1665643342576" duration="411000" />
+      <workItem from="1665643764475" duration="1451000" />
+      <workItem from="1665645231636" duration="342000" />
+      <workItem from="1665645590435" duration="1049000" />
+      <workItem from="1665646667379" duration="4647000" />
+      <workItem from="1665653144637" duration="397000" />
+      <workItem from="1665653635319" duration="261000" />
+      <workItem from="1665653918875" duration="5558000" />
+      <workItem from="1665662424081" duration="3211000" />
+      <workItem from="1665911888999" duration="655000" />
+      <workItem from="1665912558994" duration="41000" />
+      <workItem from="1665912615483" duration="712000" />
+      <workItem from="1665914665561" duration="41000" />
+      <workItem from="1665914754235" duration="24000" />
+      <workItem from="1665914810967" duration="1602000" />
+      <workItem from="1665921248697" duration="1438000" />
+      <workItem from="1666009323361" duration="633000" />
+      <workItem from="1666102888156" duration="694000" />
+      <workItem from="1666178465826" duration="576000" />
+      <workItem from="1666498018006" duration="73000" />
     </task>
     <task id="LOCAL-00012" summary="更新">
       <created>1659711128187</created>
@@ -571,7 +610,91 @@
       <option name="project" value="LOCAL" />
       <updated>1662647124330</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="更新">
+      <created>1664189059430</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1664189059430</updated>
+    </task>
+    <task id="LOCAL-00050" summary="更新">
+      <created>1664194982840</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1664194982840</updated>
+    </task>
+    <task id="LOCAL-00051" summary="更新">
+      <created>1664242500305</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1664242500307</updated>
+    </task>
+    <task id="LOCAL-00052" summary="学习完前端静态页面编程开发">
+      <created>1664361114735</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1664361114736</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Boostrap框架搭建">
+      <created>1664379912514</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1664379912515</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Bootstrap框架之栅格系统">
+      <created>1664382547656</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1664382547657</updated>
+    </task>
+    <task id="LOCAL-00055" summary="XML语法-组成部分">
+      <created>1665208605596</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1665208605597</updated>
+    </task>
+    <task id="LOCAL-00056" summary="更新">
+      <created>1665657089301</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1665657089302</updated>
+    </task>
+    <task id="LOCAL-00057" summary="更新">
+      <created>1665658154297</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1665658154297</updated>
+    </task>
+    <task id="LOCAL-00058" summary="更新">
+      <created>1665658730512</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1665658730512</updated>
+    </task>
+    <task id="LOCAL-00059" summary="更新">
+      <created>1665663106121</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1665663106121</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Jsoup解析器的Document类方法的种类及使用">
+      <created>1665665885216</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1665665885216</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,15 +725,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="数据库连接池基本使用" />
-    <MESSAGE value="JDBCTemplate简单使用" />
-    <MESSAGE value="JDBCTemplate测试" />
-    <MESSAGE value="更新HTML-表单" />
-    <MESSAGE value="HTML案例1-注册页面" />
     <MESSAGE value="CSS" />
     <MESSAGE value="JS" />
     <MESSAGE value="JS变量" />
-    <MESSAGE value="更新" />
     <MESSAGE value="比较运算符" />
     <MESSAGE value="变量" />
     <MESSAGE value="特殊语法" />
@@ -627,7 +744,13 @@
     <MESSAGE value="bom_Window对象" />
     <MESSAGE value="案例1" />
     <MESSAGE value="案例2轮播图" />
-    <option name="LAST_COMMIT_MESSAGE" value="案例2轮播图" />
+    <MESSAGE value="学习完前端静态页面编程开发" />
+    <MESSAGE value="Boostrap框架搭建" />
+    <MESSAGE value="Bootstrap框架之栅格系统" />
+    <MESSAGE value="XML语法-组成部分" />
+    <MESSAGE value="更新" />
+    <MESSAGE value="Jsoup解析器的Document类方法的种类及使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jsoup解析器的Document类方法的种类及使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
