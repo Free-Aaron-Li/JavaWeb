@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.util.Objects;
 
 /**
- * @projectName: JavaWeb_Workspace
+ * @projectname: javaweb_workspace
  * @className: JsoupDemo3
  * @link:
  * @author: AaronLi
